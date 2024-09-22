@@ -36,16 +36,16 @@ type NavListProps = {
 function NavList({ className }: NavListProps) {
   return (
     <ul className={className}>
-      <li className="relative overflow-x-hidden duration-300 cursor-pointer before:transition-transform before:-translate-x-full hover:before:translate-x-2/4 before:top-auto before:absolute before:bg-white before:h-1 before:inset-0 before:right-2/4">
+      <li className="relative overflow-x-hidden duration-300 cursor-pointer before:transition-transform before:-translate-x-[120%] hover:before:translate-x-2/4 before:top-auto before:absolute before:bg-white before:h-1 before:inset-0 before:right-2/4">
         home
       </li>
-      <li className="relative overflow-x-hidden duration-300 cursor-pointer before:transition-transform before:-translate-x-full hover:before:translate-x-2/4 before:top-auto before:absolute before:bg-white before:h-1 before:inset-0 before:right-2/4">
+      <li className="relative overflow-x-hidden duration-300 cursor-pointer before:transition-transform before:-translate-x-[120%] hover:before:translate-x-2/4 before:top-auto before:absolute before:bg-white before:h-1 before:inset-0 before:right-2/4">
         shop
       </li>
-      <li className="relative overflow-x-hidden duration-300 cursor-pointer before:transition-transform before:-translate-x-full hover:before:translate-x-2/4 before:top-auto before:absolute before:bg-white before:h-1 before:inset-0 before:right-2/4">
+      <li className="relative overflow-x-hidden duration-300 cursor-pointer before:transition-transform before:-translate-x-[120%] hover:before:translate-x-2/4 before:top-auto before:absolute before:bg-white before:h-1 before:inset-0 before:right-2/4">
         about
       </li>
-      <li className="relative overflow-x-hidden duration-300 cursor-pointer before:transition-transform before:-translate-x-full hover:before:translate-x-2/4 before:top-auto before:absolute before:bg-white before:h-1 before:inset-0 before:right-2/4">
+      <li className="relative overflow-x-hidden duration-300 cursor-pointer before:transition-transform before:-translate-x-[120%] hover:before:translate-x-2/4 before:top-auto before:absolute before:bg-white before:h-1 before:inset-0 before:right-2/4">
         contact
       </li>
     </ul>
